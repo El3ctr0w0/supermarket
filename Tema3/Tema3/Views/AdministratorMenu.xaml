@@ -1,0 +1,20 @@
+﻿<Window x:Class="Tema3.Views.AdministratorMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema3.Views"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="AdministratorMenu" Height="450" Width="850">
+    <UniformGrid Rows="6">
+        <Button Content="Sterge/Activeaza/Adauga Produs" Click="Sterge_Produs" Width="180" Height="40"/>
+        <Button Content="Introduce Stock" Click="Introduce_Stock" Width="180" Height="40"/>
+        <Button Content="Modificare Pret" Click="Modificare_Pret" Width="180" Height="40"/>
+        <Button Content="Utilizatori" Click="CUtilizator" Width="180" Height="40"/>
+        <Button Content="Vizualizari" Click="Vizualizari" Width="180" Height="40"/>
+        <Button Content="Cel Mai Mare Bon" Click="BonMare" Width="180" Height="40"/>
+        <Button Content="Vizualizari venit pe zi Casier" Click="Vizualizari_Utilizatori" Width="180" Height="40"/>
+    </UniformGrid>
+
+</Window>

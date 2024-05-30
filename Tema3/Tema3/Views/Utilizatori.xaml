@@ -1,0 +1,23 @@
+﻿<Window x:Class="Tema3.Views.Utilizatori"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema3.Views"
+        ResizeMode="NoResize"
+        mc:Ignorable="d"
+        Title="Utilizatori" Height="450" Width="850">
+    <Grid>
+        <TextBlock Text="Utilizatori" Margin="335,46,272,328" FontWeight="Bold" FontSize="30" />
+        <TextBox x:Name="nume" Margin="87,178,583,194" Text="Nume_Utilizator"/>
+        <TextBox x:Name="parola" Text="Parola" Margin="302,178,415,194"/>
+        <ComboBox x:Name="isAdministrator" Margin="518,188,212,204">
+            <ComboBoxItem Content="administrator" />
+            <ComboBoxItem Content="casier" />
+        </ComboBox>
+        <Button x:Name="addUser" Content="Adauga utilizator" Margin="87,298,583,81" Click="addUser_Click"/>
+        <Button x:Name="deleteUser" Content="Sterge Utilizator" Margin="316,298,354,81" Click="deleteUser_Click"/>
+        <Button x:Name="modifyUser" Content="Modifica Utilizator" Margin="543,298,128,81" Click="modifyUser_Click"/>
+
+    </Grid>
+</Window>
